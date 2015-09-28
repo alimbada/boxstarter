@@ -18,7 +18,7 @@ http://boxstarter.org
     
     $output = Get-LocalChocolateyPackages $chocoVersion
 
-    $commands = $output | % { "choco install " + $_ }
+    $commands = $output | % { "choco install " + $_ + " -y" }
 
     [PSCustomObject]@{"Command" = $commands; }
 }

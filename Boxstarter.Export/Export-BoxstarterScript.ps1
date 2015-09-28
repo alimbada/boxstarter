@@ -56,4 +56,4 @@ http://boxstarter.org
     Write-BoxstarterMessage ("Export completed! Your Boxstarter script is located at: '" + $outputFileName + "'")
 }
 
-Export-BoxstarterScript -outputFileName "D:\boxstarter.ps1"
+Export-BoxstarterScript -outputFileName ".\boxstarter.ps1"
